@@ -4,6 +4,7 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
+      - name: Get repo
         run: actions/checkout@v3
       - name: Print message
         run: echo "Hello world"
